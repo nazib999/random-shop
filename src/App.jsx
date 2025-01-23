@@ -20,8 +20,9 @@ const App = () => {
     <Navbar/>
     <ToastContainer/>
     <Searchbar/>
-      <Routes>
+      <Routes >
         <Route path='/' element={<Home />} />
+        <Route path='/random-shop' element={<Home />} />
         <Route path='/about' element={<About />}/>
         <Route path='/collection' element={<Collection />}/>
         <Route path='/contact' element={<Contact />}/>
